@@ -4,13 +4,13 @@
 	background-color: #7e7070;
 	gap: 20px;
 	padding: 15px;
-	width: 500px;
+	width: clamp(12.5rem, 7.143rem + 26.79vw, 31.25rem);
 	border-radius: 20px;
 	margin-top: 30px;
 }
 
 .img {
-	width: 200px;
+	width: clamp(6.25rem, 4.464rem + 8.93vw, 12.5rem);
 	border-radius: 20px;
 }
 

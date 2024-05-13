@@ -24,6 +24,7 @@ const Pagination = ({pages}: Props) => {
 				<button
 					key={number}
 					onClick={() => dispatch(setFilter({key: 'page', value: number}))}
+					className={styles.button}
 				>
 					{number}
 				</button>
