@@ -22,6 +22,7 @@ const Filter = () => {
 		dispatch(setFilter({key: 'status', value: statusFilter}))
 		setNameFilter('')
 		setStatusFilter('')
+		dispatch(setFilter({key: 'page', value: 1}))
 	}
 
 	const handleReset: MouseEventHandler<HTMLButtonElement> = (event) => {
