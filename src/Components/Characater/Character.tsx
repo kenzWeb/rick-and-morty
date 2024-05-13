@@ -46,6 +46,7 @@ const Character = () => {
 						/>
 					))}
 				</div>
+				{isFetching && <h1>Loading...</h1>}
 				<Pagination
 					setCurrentPage={setCurrentPage}
 					pages={data?.info?.pages}
