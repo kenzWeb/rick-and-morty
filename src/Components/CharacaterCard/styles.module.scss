@@ -27,3 +27,38 @@
 .status {
 	font-size: 16px;
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		width: 100%;
+		padding: 10px;
+		gap: 10px;
+		flex-direction: column;
+	}
+
+	.img {
+		width: 100%;
+	}
+
+	.title,
+	.status {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 320px) {
+	.wrapper {
+		width: 100%;
+		padding: 5px;
+		gap: 5px;
+	}
+
+	.img {
+		width: 100%;
+	}
+
+	.title,
+	.status {
+		font-size: 12px;
+	}
+}

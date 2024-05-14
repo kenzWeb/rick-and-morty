@@ -22,8 +22,9 @@ const Character = () => {
 	useEffect(() => {
 		if (data) {
 			dispatch(setCharacter(data.results))
+			setCurrentPage(filter.page) // Установка текущей страницы при загрузке данных
 		}
-	}, [data, dispatch])
+	}, [data, dispatch, filter.page])
 
 	return (
 		<>
