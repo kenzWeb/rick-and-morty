@@ -3,7 +3,9 @@ import Character from './Components/Characater/Character'
 function App() {
 	return (
 		<>
-			<Character />
+			<div className='container'>
+				<Character />
+			</div>
 		</>
 	)
 }
